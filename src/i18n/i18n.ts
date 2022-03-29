@@ -1,22 +1,18 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
+import commonEN from '../locales/en/common.json';
+import commonRU from '../locales/ru/common.json';
+import currencyEN from '../locales/en/currency.json';
+import currencyRU from '../locales/ru/currency.json';
 
 const resources = {
   en: {
-    translation: {
-      converter: 'Currency converter',
-      from: 'From',
-      to: 'To',
-      error_message: 'Server error. Please Try again later',
-    },
+    common: commonEN,
+    currency: currencyEN,
   },
   ru: {
-    translation: {
-      converter: 'Конвертер валют',
-      from: 'Меняю',
-      to: 'Получаю',
-      error_message: 'Не удалось получить данные. Попробуйте позже',
-    },
+    common: commonRU,
+    currency: currencyRU,
   },
 };
 

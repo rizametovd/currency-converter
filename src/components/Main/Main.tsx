@@ -19,7 +19,7 @@ const INIT_AMOUNT = {
 const INIT_RATES = {};
 
 const Main: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('common');
   const [rates, setRates] = useState<Rates>(INIT_RATES);
   const [currency, setCurrency] = useState(INIT_CURRENCY);
   const [amount, setAmount] = useState(INIT_AMOUNT);

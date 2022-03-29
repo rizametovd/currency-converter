@@ -1,0 +1,6 @@
+{
+  "converter": "Currency converter",
+  "from": "From",
+  "to": "To",
+  "error_message": "Server error. Please Try again later"
+}

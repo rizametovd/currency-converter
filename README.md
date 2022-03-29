@@ -3,6 +3,9 @@
 ![React](https://img.shields.io/badge/-React-61daf8?logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-e34f26?logo=typescript&logoColor=white)
 
+## Деплой
+https://rizametovd.github.io/currency-converter/
+
 ## Стек
 * React
 * TypeScript
